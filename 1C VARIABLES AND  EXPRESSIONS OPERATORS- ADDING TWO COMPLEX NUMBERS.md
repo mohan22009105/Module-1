@@ -14,6 +14,9 @@ To Write a Python program to find the distance covered by a car given the time (
 
 ## PROGRAM
 ```
+Name: Mohan Kumar P
+Reg no: 212222220026
+
 time=float(input())
 speed=float(input())
 dist=time*speed
