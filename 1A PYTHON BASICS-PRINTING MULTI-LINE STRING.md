@@ -5,9 +5,13 @@ To create a Python program to print the string in multiple lines using triple qu
 
 ## ALGORITHM  
 1.Start the program.
+
 2.Create a multi-line string using triple single quotes (''').
+
 3.Create another multi-line string using triple double quotes (""").
+
 4.Print both multi-line strings.
+
 5.End the program.
 
 ## PROGRAM
