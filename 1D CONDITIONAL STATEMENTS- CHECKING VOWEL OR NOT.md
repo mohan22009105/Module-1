@@ -23,6 +23,9 @@ To Write a Python program to print the type of user based on the user choice usi
 
 ## PROGRAM
 ```
+Name: Mohan Kumar P
+Reg no: 212222220026
+
 choice=int(input())
 if choice == 1:
     print("Admin")
