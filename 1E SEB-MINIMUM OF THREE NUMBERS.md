@@ -1,34 +1,42 @@
 # Experiment No: 1e – SEB-Minimum of Three Numbers
 
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
+To write a Python program to find the largest among three Integer Numbers ..
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+1. Start the program.
+
+2. Prompt the user to input three integer numbers (a, b, and c).
+
+3. Use if-elif-else to compare the three numbers:
+
+   If a is greater than both b and c, then a is the largest.
+
+   Else if b is greater than both a and c, then b is the largest.
+
+   Else, c is the largest.
+
+4. Display the largest number.
+
+5. End the program.
 
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+```
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c:
+    print(f"The largest of the three a= {a} b= {b} c= {c} is {a}")
+elif b>a and b>c:
+    print(f"The largest of the three a= {a} b= {b} c= {c} is {b}")
+else:
+    print(f"The largest of the three a= {a} b= {b} c= {c} is {c}")
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
 ```
 
 ## OUTPUT
 
+![Screenshot 2025-04-28 140914](https://github.com/user-attachments/assets/f7e2fcaf-0c33-4562-b51f-50b4e71e2d43)
+
 ## RESULT
+Thus the program is verified and executed Successfully.
