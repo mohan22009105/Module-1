@@ -1,7 +1,7 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+# Experiment No: 1e – SEB-find the largest among three Integer Numbers
 
 ## AIM  
-To write a Python program to find the largest among three Integer Numbers ..
+To write a Python program to find the largest among three Integer Numbers .
 
 ## ALGORITHM  
 1. Start the program.
