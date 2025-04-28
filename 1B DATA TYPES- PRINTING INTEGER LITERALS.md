@@ -1,4 +1,4 @@
-# Experiment No: 1B- Data Types – Pfloat value with two decimal places
+# Experiment No: 1B- Data Types – float value with two decimal places
 
 ## AIM  
 Write a Python program to assign a float value with two decimal places to a variable and display it.
