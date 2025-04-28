@@ -22,6 +22,9 @@ To write a Python program to find the largest among three Integer Numbers ..
 
 ## PROGRAM
 ```
+Name: Mohan Kumar P
+Reg no: 212222220026
+
 a=int(input())
 b=int(input())
 c=int(input())
