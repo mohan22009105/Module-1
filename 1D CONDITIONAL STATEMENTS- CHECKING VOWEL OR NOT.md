@@ -1,4 +1,4 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements-  type of user based on the user choice using elif
 
 ## AIM  
 To Write a Python program to print the type of user based on the user choice using elif .
