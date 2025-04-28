@@ -1,31 +1,44 @@
 ## Experiment No: 1d – Conditional Statements- Checking Vowel or not
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To Write a Python program to print the type of user based on the user choice using elif .
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+1. Start the program.
+
+2. Display the choices (1 for Admin, 2 for Editor, 3 for Guest).
+
+3. Prompt the user to enter a choice (an integer).
+
+4. Use if-elif-else to check the input:
+
+   If the choice is 1, print "Admin".
+
+   If the choice is 2, print "Editor".
+
+    If the choice is 3, print "Guest".
+
+    Otherwise, print "Wrong Entry".
+
+5. End the program.
 
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
-
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+```
+choice=int(input())
+if choice == 1:
+    print("Admin")
+elif choice == 2:
+    print("Editor")
+elif choice == 3:
+    print("Guest")
 else:
-    print("The given character is NOT a vowel")
+    print("Wrong entry")
+
 ```
 
 ## OUTPUT
 
+![Screenshot 2025-04-28 140551](https://github.com/user-attachments/assets/4b0cc096-df79-4907-982f-89653f649816)
+
+
 ## RESULT
+Thus, the program was successfully executed.
