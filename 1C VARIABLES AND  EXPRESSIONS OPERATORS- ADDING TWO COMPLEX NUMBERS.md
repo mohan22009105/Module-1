@@ -1,26 +1,30 @@
 # Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
 
 ## AIM
-To write a Python program for adding two complex numbers, and get the user input using the `eval()` function.
+To Write a Python program to find the distance covered by a car given the time (in hours) and speed (in km/hr).
 
 ## ALGORITHM
-1. Begin the program.
-2. Use the `eval()` function to get two complex numbers as input from the user.
-3. Print the complex numbers entered by the user.
-4. Perform the addition of the two complex numbers using the `+` operator.
-5. Print the sum of the two complex numbers.
-6. Terminate the program.
+1. Start the program.
+
+2. Prompt the user to input the time (in hours).
+
+3. Prompt the user to input the speed (in km/hr).
+
+4. Calculate the distance using the formula:
 
 ## PROGRAM
-```python
-# Reg.No-
-#Name-
-#Write your code here
+```
+time=float(input())
+speed=float(input())
+dist=time*speed
+print("Distance covered is {:.2f}km".format(dist))
 
 ```
 
 ## OUTPUT
 
+![Screenshot 2025-04-28 140107](https://github.com/user-attachments/assets/8114074d-63d9-4142-9435-329724cefade)
+
 
 ## RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+Thus the python program executed successfully.
