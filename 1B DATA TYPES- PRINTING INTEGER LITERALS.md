@@ -1,29 +1,30 @@
 # Experiment No: 1B- Data Types – Printing Integer Literals
 
 ## AIM  
-To write a Python program to print the following integer literals: 123, 456, 789.
+Write a Python program to assign a float value with two decimal places to a variable and display it.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Initialize the integer literals `123`, `456`, and `789`.  
-3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
-4. Terminate the program.
+1. Start the program.
+
+2. Assign a float value with two decimal points to a variable.
+
+3. Print the value of the variable.
+
+4. End the program.
 
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+```
+global_mean_sea_level_2018=21
 
-num1 = 123
-num2 = 456
-num3 = 789
+global_mean_sea_level_2018=21.36
 
-print(num1)
-print(num2)
-print(num3)
+print(global_mean_sea_level_2018)
 
 ```
 ## OUTPUT
 
+![Screenshot 2025-04-28 135617](https://github.com/user-attachments/assets/bc02d5fa-8a0e-465a-8708-0de7798e6582)
+
+
 ## RESULT
+The program was successfully executed.
