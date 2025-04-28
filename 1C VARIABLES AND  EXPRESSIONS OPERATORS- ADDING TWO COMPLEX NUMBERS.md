@@ -1,4 +1,4 @@
-# Experiment No: 1c-Varibles and Expressions, Operators - Adding Two Complex Numbers
+# Experiment No: 1c-Varibles and Expressions, Operators - distance covered by a car given the time
 
 ## AIM
 To Write a Python program to find the distance covered by a car given the time (in hours) and speed (in km/hr).
